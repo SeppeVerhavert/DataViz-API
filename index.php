@@ -1,8 +1,8 @@
 <?php
 
-$newArray = [];
+$newArray = array();
 
-for ($x = 0; $x <= 9; $x++) {
+for ($x = 0; $x <= $_GET["value"]; $x++) {
     $newNumber1 = rand(1, 6);
     $newNumber2 = rand(1, 6);
     $newNumber3 = rand(1, 6);
