@@ -2,7 +2,7 @@
 
 $newArray = array();
 
-for ($x = 0; $x <= $_GET["value"]; $x++) {
+for ($x = 0; $x <= $_GET["value"]-1; $x++) {
     $newNumber1 = rand(1, 6);
     $newNumber2 = rand(1, 6);
     $newNumber3 = rand(1, 6);
